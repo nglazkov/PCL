@@ -1,0 +1,3 @@
+Com mais exemplos de frases onde a palavra, que está a ser analisada esteja esta no inicio, no fim ou pelo meio da frase, é possível enriquecer mais os unigramas e os bigramas do sistema que conseguirá apresentar probabilidades mais corretas para cada lema.
+Somente com bigramas o sistema é pouco fiável, quanto maior for o ngrama melhor será, mas também podendo tornar-se demasiado pesado.
+Ao analisar mais combinações possíveis, tal como já foi referido, o sistema irá tornar-se mais fiável.

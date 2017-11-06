@@ -1,0 +1,14 @@
+Trabalho realizado por:
+50% - (João Serrano - 55648)
+50% - (Nikolai Glazkov – 62033)
+
+Tarefa 1:
+Para estruturar os unigramas e os bigramas foi utilizada a biblioteca nltk do python para desenvolver funções que criam os mesmos com base nas frases apresentadas. As tags do inicio e do fim (<s></s>) das frases são adicionados aos unigramas e aos bigramas baseando-se no numero de frases existentes.
+Optamos por efetuar a leitura direta dos ficheiros para extrair os valores desejados, seja do unigrama ou do bigrama. Essa opção deve-se ao facto de não ser possível carregar para a memória as entradas com caracteres considerados especiais, os do inicio e do fim das frases: “<s>” e “</s>”.
+Para criar todos os ficheiros acima mencionados é necessário correr o script .sh presente na pasta tarefa 1, que já se encontra pré-configurado para essa operação.
+NOTA: A versão do python utilizada foi 3.5 de 32 bits com biblioteca nltk instalada.
+Tarefa 2 e 3:
+Caso haja uma frase que começa pela palavra que estamos a analisar, mesmo que esta começa por letra maiúscula ou minúscula, o programa está preparado para adicionar tags do inicio da frase para ser calculada a probabilidade da mesma, ou seja: “<s> Palavra …”. Caso seja como única entrada, então será “<s> Palavra </s>”.
+O cálculo das probabilidades é efetuado da seguinte forma: é extraído o excerto da frase que contem a “Palavra” e com base nos unigramas e bigramas é efetuado o calculo. O formato é o seguinte: “(palavra antes) PALAVRA (palavra depois)”. Este calculo pode ser também com base nos unigramas e bigramas com smoothing, visto que uma das palavras que está antes ou depois da Palavra que estamos a analisar, pode não existir nos unigramas, ou pode não existir uma entrada nos bigramas dessa combinação das palavras.
+As nossas palavras foram: “viram” e “cobrem”, para calcular as probabilidades das frases de teste, é necessário correr a respetiva linha de comandos que calcula a mesma e guarda num ficheiro de texto tal como solicitado, com resultado das probabilidades e indicando qual é o lema mais provável.
+

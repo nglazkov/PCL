@@ -1,0 +1,10 @@
+Result:['Espero que eles não me cobrem pelos pratos partidos !', ['cobrir', 3.1032786014292955e-08], ['cobrar', 0.027777777777777776], 'Lema mais provável:cobrar']
+
+Result:['Cobrem sempre pelo café .', ['Cobrir', 3.08520890381417e-08], ['Cobrar', 3.08520890381417e-08], 'Lema mais provável:Cobrir']
+
+Result:['Os seguros básicos não cobrem os vidros partidos .', ['cobrir', 0.015564903846153846], ['cobrar', 2.311688760301752e-07], 'Lema mais provável:cobrir']
+
+Result:['É melhor procurar estabelecimentos que cobrem por hora .', ['cobrir', 0.002263235888454803], ['cobrar', 0.0012161899202179412], 'Lema mais provável:cobrir']
+
+Result:['As cadeias de televisão cobrem .', ['cobrir', 0.002403846153846154], ['cobrar', 6.755792458677774e-08], 'Lema mais provável:cobrir']
+

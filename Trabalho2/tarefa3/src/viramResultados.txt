@@ -1,0 +1,10 @@
+Result:['Viram ontem aquele jogo na televisão ?', ['Ver', 5.2883804075871126e-08], ['Virar', 5.2883804075871126e-08], 'Lema mais provável:Ver']
+
+Result:['Eles não viram , e nós também não !', ['ver', 0.00834155161078238], ['virar', 5.734918311823567e-08], 'Lema mais provável:ver']
+
+Result:['Eu perguntei-lhes porque é que eles não viram .', ['ver', 0.010724852071005918], ['virar', 5.734918311823567e-08], 'Lema mais provável:ver']
+
+Result:['Perguntei a eles se viram o o meu iPhone .', ['ver', 0.037535612535612536], ['virar', 0.004861111111111111], 'Lema mais provável:ver']
+
+Result:['Não consigo perceber como é que eles viram aqueles aquelas pedras gigantes .', ['ver', 1.5857772274778404e-07], ['virar', 5.864151993190078e-08], 'Lema mais provável:ver']
+
